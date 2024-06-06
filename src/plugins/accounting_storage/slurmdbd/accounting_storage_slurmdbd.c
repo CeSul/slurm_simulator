@@ -339,7 +339,7 @@ static void *_set_db_inx_thread(void *no_data)
 		{ NO_LOCK, WRITE_LOCK, NO_LOCK, NO_LOCK, NO_LOCK };
 	/* DEF_TIMERS; */
 
-	static List local_job_list;
+//	static List local_job_list;
 
 #ifdef SLURM_SIMULATOR
 	static bool first_run=true;
